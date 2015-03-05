@@ -66,6 +66,8 @@ describe("About Applying What We Have Learnt", function() {
 
     var sum = 233168;    /* try chaining range() and reduce() */
 
+
+
     expect(233168).toBe(233168);
   });
 
@@ -84,6 +86,7 @@ describe("About Applying What We Have Learnt", function() {
 
   it("should count the ingredient occurrence (functional)", function () {
     var ingredientCount = { "{ingredient name}": 0 };
+    
 
     /* chain() together map(), flatten() and reduce() */
 
