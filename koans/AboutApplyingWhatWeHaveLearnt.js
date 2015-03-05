@@ -41,6 +41,10 @@ describe("About Applying What We Have Learnt", function() {
 
       /* solve using filter() & all() / any() */
 
+      _(productsICanEat).filter(function (x) {
+          return 
+      });
+
       expect(productsICanEat.length).toBe(0);
   });
 
